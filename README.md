@@ -47,7 +47,17 @@ dados e APIs.
 - Recuperação de arquivos via URL pública
 - Automação de processos de armazenamento e compartilhamento
 
----
+
+## Conteúdo dos Scripts Python
+
+Além dos notebooks interativos, este repositório inclui scripts `.py` que replicam as etapas de tratamento de dados de forma automatizada.
+
+Esses scripts são úteis para:
+
+- Executar o pré-processamento em ambientes fora do Jupyter
+- Integrar a coleta de dados 
+- Reutilizar funções e lógicas da coleta com maior eficiência
+
 
 ## Componentes do Projeto
 
@@ -76,10 +86,34 @@ entrada de dados.
 
 ### Como usar este repositório
 
-Cada notebook pode ser executado individualmente em ambiente Jupyter.  
-Os arquivos `.csv`, `.xlsx` e `.json` gerados estão incluídos ou podem 
-ser reproduzidos com os scripts disponíveis.
+Este repositório contém notebooks e scripts com técnicas de coleta de dados em diferentes contextos: web scraping, geração sintética, integração com bancos de dados e APIs.
 
+Você pode explorar o conteúdo de duas formas:
+
+#### Notebooks
+
+Cada notebook está organizado por tema e pode ser executado individualmente em ambiente Jupyter. 
+Eles incluem explicações passo a passo e exemplos práticos.
+
+### Scripts Python
+
+Os scripts `.py` automatizam os processos demonstrados nos notebooks, permitindo a execução rápida.
+
+Para executar os scripts:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   cd nome-do-repositorio
+
+
+- Instale as dependências:
+
+````
+pip install -r requirements.txt
+````
+
+Os arquivos .csv, .xlsx e .json gerados serão salvos na pasta data/, conforme o fluxo de coleta.
 
 ---
 
