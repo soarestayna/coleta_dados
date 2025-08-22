@@ -101,17 +101,16 @@ Os scripts `.py` automatizam os processos demonstrados nos notebooks, permitindo
 
 Para executar os scripts:
 
-1. Clone o repositório:
-   ```bash
+- Clone o repositório:
+   ```
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    cd nome-do-repositorio
 
-
-- Instale as dependências:
 
-````
-pip install -r requirements.txt
-````
+- Instale as dependências:
+   ```
+   pip install -r requirements.txt
+  
 
 Os arquivos .csv, .xlsx e .json gerados serão salvos na pasta data/, conforme o fluxo de coleta.
 
